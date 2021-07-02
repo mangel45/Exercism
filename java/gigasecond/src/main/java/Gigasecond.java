@@ -10,7 +10,7 @@ public class Gigasecond {
     }
 
     public Gigasecond(LocalDateTime moment) {
-        this.moment = LocalDateTime.of(moment.toLocalDate(), moment.toLocalTime()).plusSeconds(GIGASECOND);        
+        this.moment = moment.plusSeconds(GIGASECOND);        
     }
 
     public LocalDateTime getDateTime() {
